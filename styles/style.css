@@ -1,7 +1,36 @@
 body {
   background: #c9b49f;
+  text-align: center;
+  padding: 20px 40px;
+}
+h1 {
+  padding: 20px 0px;
+  margin: 50px;
+  font-size: 48px;
+  color: #c55c22;
+}
+p {
+  font-size: 24px;
+  color: #522830;
 }
 img {
   display: block;
   max-width: 600px;
+  padding: 1px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 1.8px solid #522830;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.navigation-link {
+  display: block;
+  padding: 20px;
+  color: #c55c22;
+}
+.email-link {
+  color: #c55c22;
 }
